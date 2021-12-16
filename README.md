@@ -10,10 +10,21 @@ Este código permite que você descubra o IMC de acordo com os valores de peso e
 ### Recomendável:
 * Instalar a IDE [Visual Studio Code](https://code.visualstudio.com/download);
 
-### Como usar:
-* Insere o comando: ``` bash git clone https://github.com/sralmirjunior/calculoIMC.git ```
-* Abre o terminal/prompt de comando na pasta que reproduzir o "git clone";
-* Insere o comando: dart calculoIMC.dart 
+### Instruções:
+* Clone o repositório: 
+```bash
+git clone https://github.com/sralmirjunior/calculoIMC.git
+```
+
+* Entre na pasta:
+```bash
+cd ./calculoIMC
+```
+
+* Insere o comando: 
+```bash
+dart calculoIMC.dart 
+```
   * Será solicitado a inserção de um peso;
   * Logo após a inserção, será solicitado um altura;
   * Após a inserção, terá o resultado final. 
