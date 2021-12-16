@@ -4,3 +4,11 @@
 
 Este código permite que você descubra o IMC de acordo com os valores de peso e altura inseridos.
 
+### Pré-requisito:
+- Instalar o [Dart](https://dart.dev/get-dart);
+
+### Desejável:
+- Instalar a IDE [Visual Studio Code](https://code.visualstudio.com/download);
+
+### Como usar:
+- 
