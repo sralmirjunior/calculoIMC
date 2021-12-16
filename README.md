@@ -7,11 +7,11 @@ Este código permite que você descubra o IMC de acordo com os valores de peso e
 ### Pré-requisito:
 * Instalar o [Dart](https://dart.dev/get-dart);
 
-### Desejável:
+### Recomendável:
 * Instalar a IDE [Visual Studio Code](https://code.visualstudio.com/download);
 
 ### Como usar:
-* Insere o comando: ``` git clone https://github.com/sralmirjunior/calculoIMC.git ```
+* Insere o comando: ``` bash git clone https://github.com/sralmirjunior/calculoIMC.git ```
 * Abre o terminal/prompt de comando na pasta que reproduzir o "git clone";
 * Insere o comando: dart calculoIMC.dart 
   * Será solicitado a inserção de um peso;
