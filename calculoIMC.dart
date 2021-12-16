@@ -11,14 +11,19 @@ main() {
 
   var calculo = peso / (altura * altura);
 
-  print(calculo);
-  if (calculo < 18.5) {
-    print("Você está magro");
-  } else if (calculo >= 18.5 && calculo < 24.9) {
-    print("Você está no peso ideal");
-  } else if (calculo >= 24.9 && calculo < 30) {
-    print("Você está sobrepeso");
+  print("Seu peso é $peso kg, sua altura é $altura m e seu IMC é " +
+      calculo.toStringAsFixed(2) +
+      "kg/m²");
+
+  if (calculo >= 40) {
+    print("Obesidade - Grau III");
+  } else if (calculo <= 39.9 && calculo >= 30) {
+    print("Obesidade - Grau II");
+  } else if (calculo <= 29.9 && calculo >= 25) {
+    print("Sobrepeso - Grau I");
+  } else if (calculo <= 24.9 && calculo >= 18.5) {
+    print("Normal - Grau 0");
   } else {
-    print("Você está obeso");
+    print("Magreza - Grau 0");
   }
 }
